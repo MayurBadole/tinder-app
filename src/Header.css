@@ -1,16 +1,17 @@
-.header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin-top: 20px;
-    z-index: 100;
-    border-bottom: 1px solid #f9f9f9;
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 100;
+  border-bottom: 1px solid #f9f9f9;
 }
 
+.header__logo {
+  object-fit: contain;
+  height: 40px;
+  background-color: white;
+}
 
-
-.header__logo{
-object-fit: contain;
-height: 40px;
-background-color: white;
+.header__icon {
+  padding: 20px;
 }
